@@ -1,0 +1,19 @@
+{
+  "name": "vite-xff-bug",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "echo": "PORT=8081 pnpm exec http-echo-server",
+    "dev": "vite"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.22.0",
+  "devDependencies": {
+    "@vitejs/plugin-basic-ssl": "^2.1.0",
+    "http-echo-server": "^2.1.1",
+    "vite": "7.2.4"
+  }
+}
